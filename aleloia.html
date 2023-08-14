@@ -20,13 +20,13 @@
 </head>
 
 <body>
-  <header class="navbar">
+  <header class="nav" id="nav">
     <div class="logo">
       <span><strong>ALELÓIA PRODUCTION</strong></span>
     </div>
    
 
-    <nav>
+    <nav >
       <ul class="lista">
         <li class="Ponto"><a href="file:///C:/Users/tsama/OneDrive/%C3%81rea%20de%20Trabalho/site/aleloia.html"><strong>INÍCIO</strong></a></li>
         <li class="Ponto"><a href="C:\Users\tsama\OneDrive\Área de Trabalho\site\netflix.html">FILMES</a></li>
@@ -133,5 +133,19 @@
 
     
   </footer>
+
+
+  <script>
+    var btnMenu = document.getElementById('btn-menu');
+    var nav = document.getElementById('nav');
+
+    btnMenu.addEventListener('click', function(){
+        
+        nav.classList.toggle('mostrar');
+    });
+</script>
+
 </body>
 </html>
+
+
