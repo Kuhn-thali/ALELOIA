@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.navbar {
+.nav {
   display: flex;
   width: 100%;
   transition: all 0.4s;
@@ -41,6 +41,7 @@ body {
   cursor: pointer;
   padding-top: 8px;
 }
+
 
 .mostrar {
   left: 0;
@@ -286,6 +287,12 @@ body {
       }
 
 @media screen and (max-width: 568px) {
+       
+        .nav {
+          height: 80px;
+          align-items: center;
+        }
+        
         .lista {
           display: none;
         }
@@ -371,4 +378,8 @@ body {
     .listadois {
       display: none;
   }
+      }
+
+      @media screen and (max-width: 1720px) {
+        
       }
