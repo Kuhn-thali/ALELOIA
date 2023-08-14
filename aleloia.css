@@ -381,5 +381,19 @@ body {
       }
 
       @media screen and (max-width: 1720px) {
-        
+        .nav{
+          width: 1720px;
+        }
+
+        .titulodois{
+          width: 1720px;
+          padding-left: 500px;
+        }
+
+        .rodape {
+          width: 1720px;
+          align-items: center;
+        }
+
+
       }
